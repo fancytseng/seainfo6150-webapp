@@ -9,8 +9,12 @@ const ArticleListItem = props => {
             <body>
                 <h2>{props.article.title}</h2>
                 <p>{props.article.shortText}</p>
-                <time dateTime = {props.article.pubYear}>{props.article.pubDate}</time>             
-                <button onClick = {() => alert(props.article.slug)}>show article slug</button>             
+                <time dateTime = {props.article.pubYear}>
+                    {props.article.pubDate}
+                </time>             
+                <button onClick = {() => alert(props.article.slug)}>
+                    show article slug
+                </button>             
             </body>
 
         </div>       
