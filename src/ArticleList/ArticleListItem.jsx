@@ -1,23 +1,24 @@
-import React from "react";
+import React from 'react';
+import SlugBotton from './SlugButton';
+import './ArticleListItem.module.css';
 
-const ArticleListItem = props => {
-    return (         
+const ArticleListItem = (props) => {
+    return (
         <div>
             <head>
-                <title>Articles</title>
+                <title>{props.article.title}</title>
             </head>
             <body>
-                <h2>{props.article.title}</h2>
+                <h1>{props.article.title}</h1>
                 <p>{props.article.shortText}</p>
                 <time dateTime = {props.article.pubYear}>
                     {props.article.pubDate}
-                </time>             
-                <button onClick = {() => alert(props.article.slug)}>
-                    show article slug
-                </button>             
+                </time>
+                <SlugBotton slug = {props.article.slug} buttonText = {props.article.author}>
+                </SlugBotton>
             </body>
+        </div>
+    );
+};  
 
-        </div>       
-    )
-}
 export default ArticleListItem;

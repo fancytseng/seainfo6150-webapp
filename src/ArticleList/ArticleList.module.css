@@ -1,0 +1,19 @@
+ul {
+    background-color : rgb(221, 33, 33);
+    margin: 2px;
+    border: rgb(87, 84, 84);
+    border-style: dashed;
+    border-width: 1px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+li{
+    background-color: rgb(243, 242, 242);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 2px;
+    border: 2px;
+    border-style: solid;
+    border-color:  rgb(221, 33, 33);
+}
