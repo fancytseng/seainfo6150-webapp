@@ -1,5 +1,6 @@
 .container {
     background: #eee;
+    background: linear-gradient(to left, #faf8f8, #ff0000);
     border: 1px solid #c00;
     margin-bottom: 20px;
     padding: 10px;
@@ -15,4 +16,11 @@
 .pubDate {
     font-weight: bold;
     font-size: smaller;
+}
+
+.img{
+    width: 18%;
+    margin: 1%;
+    float: left;
+
 }
