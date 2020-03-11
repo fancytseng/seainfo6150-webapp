@@ -12,3 +12,31 @@
     
 }
 
+@media (min-width: 200px){
+    .container{
+        width:100%;
+        grid-template-columns:1fr;
+        color: purple
+    }
+    
+}
+@media (min-width: 500px){
+    .container{
+        width:100%;
+        grid-template-columns:1fr 1fr;
+        color: peru
+    }
+}
+@media (min-width: 800px){
+    .container{
+        width:100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        color: palegreen
+    }
+}
+@media (max-width: 1100px){
+    .container{
+        width:100%;
+        color: powderblue
+    }
+}

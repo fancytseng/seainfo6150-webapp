@@ -16,3 +16,27 @@
    
 }
 
+@media (min-width: 200px){
+    .slugButton{
+        color: blue
+    }
+}
+
+@media (min-width: 500px){
+    .slugButton{
+        color: brown
+    }
+}
+
+@media (min-width: 800px){
+    .slugButton{
+        color: bisque
+    }
+}
+
+@media (min-width: 1100px){
+    .slugButton{
+        color: blueviolet
+    }
+}
+
